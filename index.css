@@ -1,0 +1,382 @@
+@font-face {
+  font-family: "OGG";
+  src: url("/fonts/Ogg-RegularItalic.woff") format("woff"),
+    url("/fonts/Ogg-RegularItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("/fonts/Brandon_light.otf") format("otf"),
+    url("/fonts/Brandon_light.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  width: 100%;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.page {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.page:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.name {
+  font-family: OGG;
+  font-size: 80px;
+  font-weight: 600;
+  letter-spacing: 7px;
+
+  position: absolute;
+}
+
+.designation {
+  font-size: 30px;
+  font-family: Gilroy;
+  font-weight: 900;
+
+  position: absolute;
+  top: 59%;
+  z-index: 2;
+}
+.designation:nth-child(1) {
+  font-weight: 400;
+}
+.cover1 {
+  height: 20%;
+  width: 70%;
+  z-index: 1;
+  position: absolute;
+  top: 59%;
+  background-color: white;
+}
+.cover2 {
+  height: 10%;
+  width: 90%;
+  background-color: white;
+  position: absolute;
+  top: 66%;
+  z-index: 2;
+}
+.page:nth-child(2) p {
+  font-size: 40px;
+  width: 60%;
+  font-family: Brandon Grotesque;
+  position: absolute;
+  right: 5%;
+  top: 10%;
+}
+.page:nth-child(2) {
+  padding: 0 50px;
+}
+.page:nth-child(2) h1 {
+  font-size: 140px;
+  font-family: Brandon Grotesque;
+  opacity: 0.1;
+  position: absolute;
+  left: -10%;
+}
+
+.div img {
+  width: 270px;
+  height: 545px;
+  position: absolute;
+  right: 26%;
+  bottom: -5%;
+}
+.div1 img {
+  width: 243px;
+  height: 490px;
+  position: absolute;
+  right: 5%;
+  bottom: -6%;
+}
+.div2 img {
+  width: 189px;
+  height: 381px;
+  position: absolute;
+  right: 29%;
+  bottom: -460px;
+}
+.div3 img {
+  width: 189px;
+  height: 381px;
+  position: absolute;
+  right: 6%;
+  bottom: -460px;
+}
+.div4 img {
+  width: 243px;
+  height: 490px;
+  position: absolute;
+  right: 26%;
+  bottom: -1560px;
+}
+.div5 img {
+  width: 243px;
+  height: 490px;
+  position: absolute;
+  right: 6%;
+  bottom: -1590px;
+}
+.div6 img {
+  width: 189px;
+  height: 381px;
+  position: absolute;
+  right: 29%;
+  bottom: -1960px;
+}
+.div7 img {
+  width: 189px;
+  height: 381px;
+  position: absolute;
+  right: 6%;
+  bottom: -2000px;
+}
+.div8 img {
+  width: 243px;
+  height: 490px;
+  position: absolute;
+  right: 29%;
+  bottom: -3000px;
+}
+.div9 img {
+  width: 366px;
+  height: 512px;
+  position: absolute;
+  right: 1%;
+  bottom: -3400px;
+}
+.div10 img {
+  width: 243px;
+  height: 490px;
+  position: absolute;
+  right: 26%;
+  bottom: -4360px;
+}
+.div11 img {
+  width: 243px;
+  height: 490px;
+  position: absolute;
+  right: 5%;
+  bottom: -4400px;
+}
+.div12 img {
+  width: 189px;
+  height: 381px;
+  position: absolute;
+  right: 29%;
+  bottom: -4760px;
+}
+.div13 img {
+  width: 189px;
+  height: 381px;
+  position: absolute;
+  right: 6%;
+  bottom: -4890px;
+}
+#skills {
+  position: absolute;
+  bottom: -5590px;
+  right: -10%;
+  color: rgb(216, 211, 211);
+  font-size: 170px;
+  font-family: Brandon Grotesque;
+  font-weight: 500;
+}
+#footerleft {
+  position: absolute;
+  bottom: -5600px;
+  left: 15%;
+  font-family: Brandon Grotesque;
+  font-size: 40px;
+}
+#footerleft h4 {
+  margin-bottom: 2px;
+  font-weight: 500;
+}
+#footerleft h4:nth-child(3) {
+  margin-bottom: 30px;
+}
+#footerright {
+  position: absolute;
+  bottom: -5600px;
+  right: 15%;
+  font-family: Brandon Grotesque;
+  font-size: 40px;
+}
+#footerright h4 {
+  margin-bottom: 2px;
+  font-weight: 500;
+}
+#footerright h4:nth-child(3) {
+  margin-bottom: 30px;
+}
+#icons {
+  position: absolute;
+  bottom: -6270px;
+  font-size: 100px;
+  right: 13%;
+}
+#links {
+  position: absolute;
+  bottom: -6270px;
+  left: -10%;
+  color: rgb(216, 211, 211);
+  font-size: 170px;
+  font-family: Brandon Grotesque;
+  font-weight: 500;
+}
+#icons i {
+  margin-left: 20px;
+}
+#empty {
+  position: absolute;
+  height: 40%;
+  bottom: -6550px;
+  width: 40%;
+}
+#right {
+  height: 90%;
+  transition: all cubic-bezier(0.23, 1, 0.32, 1);
+  color: rgb(43, 37, 37);
+  position: absolute;
+  top: 43%;
+  left: 2%;
+  font-family: Brandon Grotesque;
+}
+#a {
+  font-size: 40px;
+  display: inline-block;
+  position: relative;
+  opacity: 0;
+}
+.ac {
+  height: 57.45px;
+  width: 0px;
+  background-color: rgb(43, 37, 37);
+  position: absolute;
+  top: 1%;
+}
+.acc {
+  height: 57.45px;
+  width: 0px;
+  background-color: white;
+  position: absolute;
+  top: 1%;
+}
+
+#b {
+  font-size: 60px;
+  font-weight: 600;
+  position: relative;
+  opacity: 0;
+  display: inline-block;
+}
+.bc {
+  height: 85.82px;
+  width: 0px;
+  background-color: rgb(43, 37, 37);
+  position: absolute;
+  top: 20%;
+}
+.bcc {
+  height: 85.82px;
+  width: 0px;
+  top: 20%;
+  position: absolute;
+  background-color: white;
+}
+
+#center {
+  margin: 70px 50px;
+}
+.length {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 30px;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+
+  opacity: 0;
+}
+.lc {
+  height: 42.91px;
+  width: 0px;
+  background-color: rgb(43, 37, 37);
+  position: absolute;
+  top: 35%;
+}
+.lcc {
+  height: 42.91px;
+  width: 0px;
+  background-color: white;
+  position: absolute;
+  top: 35%;
+}
+#c {
+  font-size: 30px;
+  width: 70%;
+  font-weight: 500;
+  line-height: 35px;
+  opacity: 0;
+  position: relative;
+}
+.cc {
+  height: 70px;
+  width: 0px;
+  background-color: rgb(43, 37, 37);
+  position: absolute;
+  top: 43%;
+}
+.ccc {
+  height: 70px;
+  width: 0px;
+  background-color: white;
+  position: absolute;
+  top: 43%;
+}
+#d {
+  font-size: 35px;
+  position: absolute;
+
+  bottom: 0;
+  opacity: 0;
+}
+.dc {
+  height: 50.18px;
+  width: 0px;
+  background-color: rgb(43, 37, 37);
+  position: absolute;
+  bottom: 1%;
+}
+.dcc {
+  height: 50.18px;
+  width: 0px;
+  background-color: white;
+  position: absolute;
+  bottom: 1%;
+}
