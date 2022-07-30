@@ -1,7 +1,7 @@
 var timeline = gsap.timeline();
 timeline
   .from(".name", {
-    top: "60%",
+    top: "61%",
     ease: Expo.easeInOut,
     duration: 3,
   })
